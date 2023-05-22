@@ -84,6 +84,7 @@ internal class HomeUiWindowComponentsImpl : HomeUiWindowComponents {
     descriptionPane = JTextPane()
     descriptionPane.isEditable = false
     descriptionPane.contentType = "text/html"
+    descriptionPane.text = "Apolo Songs"
     descriptionPane.maximumSize = Dimension(600, 400)
     descriptionPanel.add(descriptionPane)
     contentPanel.add(descriptionPanel)
